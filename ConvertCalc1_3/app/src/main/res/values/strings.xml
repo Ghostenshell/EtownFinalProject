@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ConvertCalc1_3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="calculator">Calculator</string>
+    <string name="kitchen_conversion">Kitchen Conversion</string>
+    <string name="amortization">Amortization</string>
+    <string name="tools">Tools</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="stealth_pavilion">Stealth Pavilion</string>
+    <string name="wallacea_etown_edu">wallacea@etown.edu</string>
+    <string name="period">.</string>
+    <string name="_3">3</string>
+    <string name="android_drop_down_list_example">Kitchen Conversion for Future Use</string>
+    <string name="viralandroid_com">ViralAndroid.com</string>
+
+</resources>

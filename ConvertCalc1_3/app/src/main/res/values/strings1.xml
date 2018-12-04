@@ -1,0 +1,17 @@
+
+<resources>
+    <string name="app_name1">Kitchen Conversion for Future Use</string>
+
+    <string-array name="android_dropdown_arrays">
+        <item>Choose a Measurement</item>
+        <item>Teaspoon</item>
+        <item>Tablespoon</item>
+        <item>(&#8531;) Cup</item>
+        <item>(&#189;) Cup</item>
+        <item>2/3 Cup</item>
+        <item>1 Cup</item>
+        <item>Pint</item>
+        <item>Quart</item>
+        <item>Gallon</item>
+    </string-array>
+</resources>

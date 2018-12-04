@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<!-- References the drawable folder files.  Pulls pictures from the drawable folder-->
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/ic_calculator"
+            android:title="@string/calculator" />
+        <item
+            android:id="@+id/nav_kitchen"
+            android:icon="@drawable/ic_kitchen"
+            android:title="@string/kitchen_conversion" />
+        <item
+            android:id="@+id/nav_amort"
+            android:icon="@drawable/ic_amort"
+            android:title="@string/amortization" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/tools" />
+        <item
+        android:id="@+id/nav_bubbles"
+        android:icon="@drawable/ic_touch"
+        android:title="Bubbles" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/send" />
+        </menu>
+    </item>
+
+</menu>

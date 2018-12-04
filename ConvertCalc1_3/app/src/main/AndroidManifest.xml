@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.awnet.convertcalc1_3">
+    <!--
+    Manifest declares package name, components, hardware/software features, and permissions.
+    The .MainActivity is declared here.  It is unorthodox to change from Main.  Therefore new activities are added.
+    BubbleView was added but is inoperable due to coding issues in the BubbleView Class.  More specifically a choice
+    must be made between using a Fragment or App Activity.  If Fragment, the constructor cannot accept any variables.
+    If AppCom Activity the same rule applies but does not produce fatal errors.
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Conversion Calculator"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".BubbleView" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Conversion Calculator"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

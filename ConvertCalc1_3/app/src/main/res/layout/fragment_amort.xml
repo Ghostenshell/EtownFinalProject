@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+<!-- Creates the layout size and margin of the boxes -->
+    <EditText
+        android:id="@+id/borrowAmount"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/txtText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Amortization"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="44dp"
+        android:text="Monthly Payment Calculator"
+        android:textSize="30sp" />
+    <!--//android:text="Loan Payment = Amount/Discount Factor or P=A/D"-->
+
+
+    <EditText
+        android:id="@+id/numMonths"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/numRate"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="278dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal" />
+
+    <TextView
+        android:id="@+id/txtMonths"
+        android:layout_width="183dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="28dp"
+        android:layout_toStartOf="@+id/numMonths"
+        android:text="How many years do you want to borrow for?" />
+
+    <TextView
+        android:id="@+id/txtMonths2"
+        android:layout_width="183dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="28dp"
+        android:layout_toStartOf="@+id/numMonths"
+        android:text="How much are you borrowing?" />
+
+    <TextView
+        android:id="@+id/txtRate"
+        android:layout_width="183dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="28dp"
+        android:layout_toStartOf="@+id/numMonths"
+        android:text="Your Interest Rate" />
+
+    <TextView
+        android:id="@+id/txtPay"
+        android:layout_width="129dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="78dp"
+        android:layout_toStartOf="@+id/numMonths"
+        android:text="Your Monthly Payment to Nearest Dollar" />
+
+    <TextView
+        android:id="@+id/numTotal"
+        android:layout_width="183dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="199dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="-171dp"
+        android:layout_toStartOf="@+id/numMonths"
+        android:clickable="false"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/CalButt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="Calculate" />
+
+</RelativeLayout>
